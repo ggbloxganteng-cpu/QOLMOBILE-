@@ -1,0 +1,38 @@
+{
+  "geode": "5.7.1",
+  "version": "v1.0.0",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081",
+    "ios": "2.2081",
+    "mac": "2.2081"
+  },
+  "id": "amba.mobileqol",
+  "name": "Mobile QOL Panel",
+  "developer": "Amba Ruwo",
+  "description": "Mobile-first QOL mod menu UI for Geometry Dash.",
+  "links": {
+    "source": "https://github.com/"
+  },
+  "settings": {
+    "menu-scale": {
+      "type": "percent",
+      "name": "Menu Scale",
+      "default": 100,
+      "min": 80,
+      "max": 120
+    },
+    "accent": {
+      "type": "string",
+      "name": "Accent Color",
+      "default": "5AA9FF"
+    },
+    "open-menu-keybind": {
+      "type": "keybind",
+      "name": "Open Menu Bind",
+      "default": "Tab",
+      "priority": 8008135
+    }
+  },
+  "tags": ["gameplay", "utility", "interface", "mobile", "universal"]
+}
